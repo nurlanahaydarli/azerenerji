@@ -32,7 +32,7 @@ export default function StatisticsChart() {
         <>
             <div className={`${styles.statistic_card} ${styles.medium_height}`}>
                 <Row gutter={10}>
-                    <Col span={12}>
+                    <Col xl={12} md={24} xs={24}>
                         <div className={styles.statistic_item}>
                             <Typography as='h4' variant='h5' color='primary' weight='medium'>
                                 Statistika
@@ -163,7 +163,7 @@ export default function StatisticsChart() {
                             </div>
                         </div>
                     </Col>
-                    <Col span={12}>
+                    <Col xl={12} md={24} xs={24}>
                         <div className={styles.right_chart_box}>
                             <Typography as='h4' variant='h5' color='primary' weight='medium'>
                                 Cəmi İES

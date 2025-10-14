@@ -60,7 +60,7 @@ export default function Home() {
                         <StatisticsChart  />
                     </div>
                     <Row gutter={24}>
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                              <MiniStatistics2
                                 icon={<StatisticUp />}
                                 title="İqtisadi tövhə"
@@ -71,7 +71,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(50, 70, 2)}%` : "12%"}
                             />
                         </Col>
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                              <MiniStatistics2
                                 icon={<StatisticUp />}
                                 title="Ödənilən vergi"
@@ -84,16 +84,16 @@ export default function Home() {
                         </Col>
                     </Row>
                     <Row gutter={24}>
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                             <TechnologyLossChart
                             />
                         </Col>
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                             <RawChart />
                         </Col>
                     </Row>
                     <Row gutter={24}>
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                             <MiniStatistics
                                 icon={<StatisticDown />}
                                 title="1 kvts elektrik enerjisinin buraxılışına təbii qazın sərfi"
@@ -115,7 +115,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(-5, 5)}%` : "-1%"}
                             />
                         </Col> */}
-                        <Col span={12}>
+                        <Col xl={12} md={24} xs={24}>
                             <MiniStatistics
                                 icon={<StatisticNormal />}
                                 title="1kvts elektrik enerjisinin istehsalının maya dəyəri (Amortizasiyasız)"
@@ -129,7 +129,7 @@ export default function Home() {
                     </Row>
                     <WidgetTable />
                     <Row gutter={24}>
-                        <Col span={8}>
+                        <Col xl={8} md={24} xs={24}>
                             <MiniStatistics2
                                 icon={<LighteningIcon />}
                                 title="Elektrik enerjisinin istehsalı"
@@ -140,7 +140,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-12%"}
                             />
                         </Col>
-                        <Col span={8}>
+                        <Col xl={8} md={24} xs={24}>
                             <MiniStatistics2
                                 icon={<HelpIcon />}
                                 title="Elektrik enerjisinin istehsalında xüsusi sərfiyyat"
@@ -151,7 +151,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(-15, 0, 0)}%` : "-8%"}
                             />
                         </Col>
-                        <Col span={8}>
+                        <Col xl={8} md={24} xs={24}>
                             <MiniStatistics2
                                 icon={<DropIcon />}
                                 title="Şərti yanacağın xusüsi sərfi"
@@ -164,7 +164,7 @@ export default function Home() {
                         </Col>
                     </Row>
                     <Row gutter={24}>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <MiniStatistics2
                                 icon={<CloudIcon />}
                                 title="Texnoloji itkilərin şindən buraxılan enerjiyə nisbəti"
@@ -174,7 +174,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(50, 200, 0)}%` : "147%"}
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <MiniStatistics2
                                 icon={<GasStationIcon />}
                                 title="Stansiyaların faydalı buraxlışı"
@@ -185,7 +185,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-13%"}
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <MiniStatistics2
                                 icon={<ElectricIcon />}
                                 title="Şinən buraxılan elektrik enerjisi"
@@ -196,7 +196,7 @@ export default function Home() {
                                 percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-12%"}
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <MiniStatistics2
                                 icon={<UsersIcon />}
                                 title="SƏTƏM göstəricilərinin qiymətləndirilməsi"
@@ -210,7 +210,7 @@ export default function Home() {
                     </Row>
 
                     <Row gutter={24}>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <SparkStatistics
                                 title="Açılmaların sayı"
                                 value={isRandom ? Number(randomValue(100, 1000, 0)) : 659}
@@ -221,7 +221,7 @@ export default function Home() {
                                 data={chartData}
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <BarStatistics
                                 title="İmtinaların sayı"
                                 value={isRandom ? Number(randomValue(10, 100, 0)) : 41}
@@ -232,7 +232,7 @@ export default function Home() {
                                 data={barData}
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <CrashStatistics
                                 title="Qəzaların sayı"
                                 value={isRandom ? Number(randomValue(0, 10, 0)) : 4}
@@ -242,7 +242,7 @@ export default function Home() {
                                 color="#E64542"
                             />
                         </Col>
-                        <Col span={6}>
+                        <Col xl={6} md={12} xs={24}>
                             <ProgressStatistics
                                 title="Əmək haqqı fondu"
                                 value={isRandom ? randomValue(5000, 10000, 1) : "7.189,5"}

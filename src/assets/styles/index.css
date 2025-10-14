@@ -131,7 +131,10 @@ body {
 .menu_list .ant-menu-submenu .ant-menu-title-content a {
   /*padding-left: 35px !important;*/
 }
-
+/* .mini_sidebar .menu_list  .ant-menu-title-content,
+.mini_sidebar .menu_list .ant-menu-submenu-arrow{
+  display: none!important;
+} */
 .table_container {
   background-color: #fff;
   border-radius: 8px;

@@ -212,18 +212,18 @@ export default function Sidebar({
     // -----------------------------
     return (
         <div
-            className={`${styles.sidebar_box} ${!open ? "" : styles.mini_sidebar}`}
+            className={`${styles.sidebar_box} ${!open ? "" : `${styles.mini_sidebar} mini_sidebar `}`}
         >
             <div className={`${styles.sidebar_menu}`} onClick={handleMenuClick}>
                 <MenuIcon />
             </div>
-            <div className={styles.sidebar_user}>
+            <div className={`${styles.sidebar_user} ${!open ? "" : `${styles.hide_menu} `}`}>
                 <img src={userImg} alt="User" />
                 <span className="typography-body1">
                     Lorem Ipsum
                 </span>
             </div>
-            <div className={`${styles.menu_list} menu_list`}>
+            <div className={`${styles.menu_list} menu_list  ${!open ? "" : `${styles.hide_menu} `}`}>
                 <Menu
                     mode="inline"
                     style={{ width: 256 }}

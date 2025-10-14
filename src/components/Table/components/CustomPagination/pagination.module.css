@@ -44,3 +44,10 @@
     cursor: not-allowed!important;
     opacity: 0.5!important;
 }
+@media(max-width: 991px){
+    .paginationContainer{
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-end;
+    }
+}

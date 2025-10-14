@@ -94,13 +94,22 @@
 .menu_list ul li span{
     /*color: var(--text-secondary) !important;*/
 }
-.mini_sidebar .sidebar_user img{
+/* .mini_sidebar .sidebar_user img{
     width: 80px;
     height: 80px;
-}
+} */
 .mini_sidebar .sidebar_search{
     display: none;
 }
 .mini_sidebar .menu_list  li span{
     /* display: none */
+}
+
+@media(max-width:991px){
+   .mini_sidebar.sidebar_box{
+    min-height: unset;
+}
+.hide_menu{
+    display: none;
+}
 }
