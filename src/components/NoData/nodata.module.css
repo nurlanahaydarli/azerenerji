@@ -1,0 +1,14 @@
+.no_data_box{
+    /*max-height: 828px;*/
+    min-height: 80vh;
+    /*max-height: 790px;*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: center;
+    justify-content: center;
+}
+.no_data_box h5{
+    margin-bottom: 8px;
+}

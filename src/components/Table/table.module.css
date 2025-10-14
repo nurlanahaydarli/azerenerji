@@ -1,0 +1,88 @@
+.custom_table ul{
+    /* padding: 15px 10px!important; */
+    margin: 0!important;
+}
+.custom_table tr th{
+    padding: 15px 20px!important;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.17000000178813934px;
+    color: rgba(46, 64, 81, 0.87) !important;
+    text-transform: capitalize;
+    border-bottom: 1px solid #000 !important;
+    background-color: #fff!important;
+}
+.custom_table tr td{
+    padding: 15px 20px!important;
+    font-size: 14px!important;
+    font-weight: 300!important;
+    line-height: 21px!important;
+    letter-spacing: 0.15000000596046448px;
+    color:rgba(46, 64, 81, 1)!important;
+    border-bottom: 1px solid rgba(46, 64, 81, 0.12) !important;
+    white-space: nowrap;
+
+}
+.custom_table tr td{
+    text-transform: none!important;
+}
+/* .custom_table th:last-child,
+.custom_table td:last-child{
+    position: sticky!important;
+    background-color: #fff;
+    top: auto;
+    right: 0;
+} */
+.custom_table table > tbody > tr >td:nth-child(even){
+    background-color: rgba(46, 64, 81, 0.03) !important;
+}
+.custom_table table > tbody > tr >td:last-child{
+    background-color: #fff !important;
+}
+.custom_table tr td a{
+    color: var(--primary-main);
+}
+.custom_table tr td span{
+    text-transform: none!important;
+}
+.custom_table tr th:before{
+    background-color: rgba(46, 64, 81, 0.12) !important;
+    width: 2px!important;
+}
+
+.table_box::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+/* Track */
+.table_box::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px rgba(46, 64, 81, 0.22);
+    border-radius: 10px;
+}
+
+/* Handle */
+.table_box::-webkit-scrollbar-thumb {
+    background:rgba(46, 64, 81, 0.22);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.table_box::-webkit-scrollbar-thumb:hover {
+    background: rgba(46, 64, 81, 0.22)
+}
+.custom_table th{
+    white-space: nowrap;
+}
+.custom_table table >tr>th{
+    background-color: #fff!important;
+    border-bottom: 1px solid #2f2f2f !important;
+}
+.table_box{
+  max-width: 100%;
+  max-height: 75vh; 
+  overflow-x: auto; 
+  overflow-y: auto; 
+  position: relative; 
+  box-shadow: 0px 1px 6px 2px rgba(50, 71, 92, 0.06);
+}

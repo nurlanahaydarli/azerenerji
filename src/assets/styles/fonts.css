@@ -1,0 +1,45 @@
+@font-face {
+  src: url('/src/assets/fonts/Archivo-Black.ttf');
+  font-family: 'Archivo';
+  font-weight: 900;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-ExtraBold.ttf');
+  font-family: 'Archivo';
+  font-weight: 800;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-Bold.ttf');
+  font-family: 'Archivo';
+  font-weight: 700;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-SemiBold.ttf');
+  font-family: 'Archivo';
+  font-weight: 600;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-Medium.ttf');
+  font-family: 'Archivo';
+  font-weight: 500;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-Regular.ttf');
+  font-family: 'Archivo';
+  font-weight: 400;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-Light.ttf');
+  font-family: 'Archivo';
+  font-weight: 300;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-ExtraLight.ttf');
+  font-family: 'Archivo';
+  font-weight: 200;
+}
+@font-face {
+  src: url('/src/assets/fonts/Archivo-ExtraLight.ttf');
+  font-family: 'Archivo';
+  font-weight: 100;
+}

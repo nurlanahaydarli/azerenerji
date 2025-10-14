@@ -1,0 +1,108 @@
+.h1 {
+    font-size: 96px;
+    line-height: 112.03px;
+    letter-spacing: -1.5px;
+
+}
+
+.h2 {
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.5px;
+}
+
+.h3 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.h4 {
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+}
+
+.h5 {
+    font-size: 24px;
+    line-height: 32.02px;
+
+}
+
+.h6 {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15000000596046448px;
+}
+.body1{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+}
+.body2{
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.15000000596046448px;
+}
+.subtitle1{
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+}
+.subtitle2{
+    font-size: 14px;
+    line-height: 21px;
+}
+.caption{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4000000059604645px;
+}
+.overline{
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+}
+
+.regular {
+    font-weight: 400 !important;
+}
+
+.semi-bold {
+    font-weight: 600 !important;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+.medium{
+    font-weight: 500;
+}
+.light{
+    font-weight: 300;
+}
+
+
+.primary {
+    color: var(--text-primary);
+}
+
+
+.secondary {
+    color: var(--text-secondary);
+}
+.disabled {
+    color: var(--text-disabled);
+}
+
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
