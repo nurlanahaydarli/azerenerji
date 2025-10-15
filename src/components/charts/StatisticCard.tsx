@@ -152,7 +152,7 @@ export default function StatisticsChart() {
                                             <DownIcon />
                                             <Typography as='span' variant='body2' custom_color='rgba(255, 62, 29, 1)' weight='regular'>
 
-                                                {isRandom ? randomValue(20, 40, 2) : "23.4"}%
+                                                {isRandom ? randomValue(12, 20, 1) : "23.4"}%
                                             </Typography>
                                         </div>
                                         <Typography as='span' variant='body2' color='primary' weight='medium'>
@@ -176,7 +176,7 @@ export default function StatisticsChart() {
                                             <path d="M23.3837 15.8837L21.6162 14.1163L16.25 19.4825V7.5H13.75V19.4825L8.38371 14.1163L6.61621 15.8837L15 24.2675L23.3837 15.8837Z" fill="black" fill-opacity="0.1" />
                                         </svg>
 
-                                        {isRandom ? randomValue(-30, 0, 2) : "-23.4"}%
+                                        {isRandom ? randomValue(12, 20, 2) : "-23.4"}%
                                     </Typography>
                                     <Typography variant='body1' color='primary' weight='regular'>
                                         Çox pis

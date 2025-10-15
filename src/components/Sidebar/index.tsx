@@ -220,7 +220,7 @@ export default function Sidebar({
             <div className={`${styles.sidebar_user} ${!open ? "" : `${styles.hide_menu} `}`}>
                 <img src={userImg} alt="User" />
                 <span className="typography-body1">
-                    Lorem Ipsum
+                    Seyran Huseynov
                 </span>
             </div>
             <div className={`${styles.menu_list} menu_list  ${!open ? "" : `${styles.hide_menu} `}`}>

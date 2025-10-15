@@ -22,7 +22,7 @@ export default function RawChart() {
                             <h4>4,5</h4>
                             <span>qəpik/kVts</span>
                             <UpperIcon fill='#FF4D49' />
-                            <p>5%</p>
+                            <p>2%</p>
                         </div>
                         <h5>Natamam</h5>
                     </div>
@@ -40,7 +40,7 @@ export default function RawChart() {
                         </div>
                         <div className={styles.list_item_right}>
                             <p>
-                                <DownLineIcon /><span className={styles.green}>3,1%</span>
+                                <DownLineIcon /><span className={styles.green}>-3,1%</span>
                             </p>
                              <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
                         </div>
@@ -48,147 +48,52 @@ export default function RawChart() {
                     <li>
                         <div className={styles.list_item_left_box}>
                             <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
+                                Amortizasiya
                             </Typography>
                             <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
+                                1.0 qəpik/kVts
                             </Typography>
                         </div>
                         <div className={styles.list_item_right}>
                             <p>
-                                <UpLineIcon /><span className={styles.red}>3,1%</span>
+                                <UpLineIcon /><span className={styles.red}>22%</span>
                             </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
+                             <Typography variant='overline' color='secondary' weight='regular'>Çox pis</Typography>
                         </div>
                     </li>
                     <li>
                         <div className={styles.list_item_left_box}>
                             <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
+                                Təmir xərci
                             </Typography>
                             <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
+                                0.1 qəpik/kVts
                             </Typography>
                         </div>
                         <div className={styles.list_item_right}>
                             <p>
-                                 <DownLineIcon /><span className={styles.green}>3,1%</span>
+                                 <UpLineIcon /><span className={styles.red}>52%</span>
                             </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
+                             <Typography variant='overline' color='secondary' weight='regular'>Çox pis</Typography>
                         </div>
                     </li>
                     <li>
                         <div className={styles.list_item_left_box}>
                             <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
+                                Əmək haqqı və DSMF
                             </Typography>
                             <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
+                                0,1 qəpik/kVts
                             </Typography>
                         </div>
                         <div className={styles.list_item_right}>
                             <p>
-                                <UpLineIcon /><span className={styles.red}>3,1%</span>
+                                <UpLineIcon /><span className={styles.red}>44%</span>
                             </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
+                             <Typography variant='overline' color='secondary' weight='regular'>Çox pis</Typography>
                         </div>
                     </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <DownLineIcon /><span className={styles.green}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <UpLineIcon /><span className={styles.red}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <DownLineIcon /><span className={styles.green}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <UpLineIcon /><span className={styles.red}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <DownLineIcon /><span className={styles.green}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
-                    <li>
-                        <div className={styles.list_item_left_box}>
-                            <Typography variant='body1' color='primary' weight='regular'>
-                                Yanacaq xərci
-                            </Typography>
-                            <Typography variant='body2' color='secondary' weight='regular'>
-                                3,1 qəpik/kVts
-                            </Typography>
-                        </div>
-                        <div className={styles.list_item_right}>
-                            <p>
-                                <UpLineIcon /><span className={styles.red}>3,1%</span>
-                            </p>
-                             <Typography variant='overline' color='secondary' weight='regular'>Yaxşı</Typography>
-                        </div>
-                    </li>
+                  
                 </ul>
             </div>
         </>

@@ -407,7 +407,7 @@
 }
 
 .chart_list {
-    max-height: 250px;
+    max-height: 235px;
     overflow: auto;
     height: 100%;
     flex-direction: column;

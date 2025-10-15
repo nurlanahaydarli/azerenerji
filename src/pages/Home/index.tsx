@@ -134,7 +134,7 @@ export default function Home() {
                                 icon={<LighteningIcon />}
                                 title="Elektrik enerjisinin istehsalı"
                                 color="red"
-                                value={isRandom ? randomValue(4000, 7000, 1) : "5.951,0"}
+                                value={isRandom ? randomValue(1000, 2000, 1) : "1000"}
                                 unit="min MVt/s"
                                 statusText="Çox pis"
                                 percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-12%"}
@@ -148,7 +148,7 @@ export default function Home() {
                                 value={isRandom ? randomValue(100, 180, 1) : "133,5"}
                                 unit="min MVt/s"
                                 statusText="Əla"
-                                percent={isRandom ? `${randomValue(-15, 0, 0)}%` : "-8%"}
+                                percent={isRandom ? `${randomValue(10, 20, 0)}%` : "10%"}
                             />
                         </Col>
                         <Col xl={8} md={24} xs={24}>
@@ -182,7 +182,7 @@ export default function Home() {
                                 value={isRandom ? randomValue(4000, 7000, 1) : "5.780,1"}
                                 unit="MVt"
                                 statusText="Çox pis"
-                                percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-13%"}
+                                percent={isRandom ? `${randomValue(-10, -20, 0)}%` : "-13%"}
                             />
                         </Col>
                         <Col xl={6} md={12} xs={24}>
@@ -190,10 +190,10 @@ export default function Home() {
                                 icon={<ElectricIcon />}
                                 title="Şinən buraxılan elektrik enerjisi"
                                 color="red"
-                                value={isRandom ? randomValue(4000, 7000, 1) : "5.817,5"}
+                                value={isRandom ? randomValue(5700, 7000, 1) : "5.817,5"}
                                 unit="min MVt/s"
                                 statusText="Çox pis"
-                                percent={isRandom ? `${randomValue(-20, 0, 0)}%` : "-12%"}
+                                percent={isRandom ? `${randomValue(-12, 20, 0)}%` : "-12%"}
                             />
                         </Col>
                         <Col xl={6} md={12} xs={24}>
@@ -213,9 +213,9 @@ export default function Home() {
                         <Col xl={6} md={12} xs={24}>
                             <SparkStatistics
                                 title="Açılmaların sayı"
-                                value={isRandom ? Number(randomValue(100, 1000, 0)) : 659}
+                                value={isRandom ? Number(randomValue(659, 3000, 0)) : 659}
                                 unit="ədəd"
-                                percent={isRandom ? `${randomValue(-10, 10, 0)}%` : "5%"}
+                                percent={isRandom ? `${randomValue(5, 12, 0)}%` : "5%"}
                                 statusText="Pis"
                                 color="red"
                                 data={chartData}
@@ -226,7 +226,7 @@ export default function Home() {
                                 title="İmtinaların sayı"
                                 value={isRandom ? Number(randomValue(10, 100, 0)) : 41}
                                 unit="ədəd"
-                                percent={isRandom ? `${randomValue(-80, 10, 0)}%` : "-60%"}
+                                percent={isRandom ? `${randomValue(-60, 5, 0)}%` : "-60%"}
                                 statusText="Əla"
                                 color="green"
                                 data={barData}
@@ -235,9 +235,9 @@ export default function Home() {
                         <Col xl={6} md={12} xs={24}>
                             <CrashStatistics
                                 title="Qəzaların sayı"
-                                value={isRandom ? Number(randomValue(0, 10, 0)) : 4}
+                                value={isRandom ? Number(randomValue(4, 10, 0)) : 4}
                                 unit="ədəd"
-                                percent={isRandom ? Number(randomValue(-70, 10, 0)) : -43}
+                                percent={isRandom ? Number(randomValue(-43, 10, 0)) : -43}
                                 statusText="Əla"
                                 color="#E64542"
                             />
@@ -245,7 +245,7 @@ export default function Home() {
                         <Col xl={6} md={12} xs={24}>
                             <ProgressStatistics
                                 title="Əmək haqqı fondu"
-                                value={isRandom ? randomValue(5000, 10000, 1) : "7.189,5"}
+                                value={isRandom ? randomValue(52041.4, 70304.14, 1) : "52041,4"}
                                 unit="min manat"
                                 statusText="Çox pis"
                                 percent={isRandom ? Number(randomValue(0, 50, 0)) : 27}
@@ -260,7 +260,7 @@ export default function Home() {
                                 icon={<StatisticDown />}
                                 title="Ştat sayının optimallaşdırılması və səmərəliliyin artırılması"
                                 color="green"
-                                value={isRandom ? randomValue(500, 1000, 0) : "672"}
+                                value={isRandom ? randomValue(3, 6, 0) : "2"}
                                 unit="nəfər"
                                 statusText="Yaxşı"
                                 percent={isRandom ? `${randomValue(-10, 0, 0)}%` : "-4%"}
@@ -272,10 +272,10 @@ export default function Home() {
                                 icon={<StatisticNormal />}
                                 title="Boşdayanma saatlarının sayı (Qəzaya görə)"
                                 color="yellow"
-                                value={isRandom ? randomValue(0, 5, 0) : "0"}
+                                value={isRandom ? randomValue(2, 2, 0) : "0"}
                                 unit="saat"
                                 statusText="Əla"
-                                percent={isRandom ? `${randomValue(0, 5, 0)}%` : "0%"}
+                                percent={isRandom ? `${randomValue(0, 2, 0)}` : "0"}
                             />
                         </div>
 
@@ -287,7 +287,7 @@ export default function Home() {
                                 value={isRandom ? randomValue(0, 5, 1) : "1.3"}
                                 unit="%"
                                 statusText="Əla"
-                                percent={isRandom ? `${randomValue(-40, -10, 0)}%` : "-25%"}
+                                percent={isRandom ? `${randomValue(-25, -20, 0)}%` : "-25%"}
                             />
                         </div>
 
@@ -299,7 +299,7 @@ export default function Home() {
                                 value={isRandom ? randomValue(1, 10, 1) : "3,5"}
                                 unit="%"
                                 statusText="Əla"
-                                percent={isRandom ? `${randomValue(10, 80, 0)}` : "54"}
+                                percent={isRandom ? `${randomValue(60, 65, 0)}` : "60"}
                             />
                         </div>
 

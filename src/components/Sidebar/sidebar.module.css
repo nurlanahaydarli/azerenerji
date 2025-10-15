@@ -52,7 +52,7 @@
 .sidebar_user img{
     width: 140px;
     height: 140px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
 }
 .sidebar_user span{

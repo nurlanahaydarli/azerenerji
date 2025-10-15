@@ -68,8 +68,8 @@ export default function TechnologyLossChart() {
     },
   ];
 
-  const total = isRandom ? randomValue(10, 30, 2) : "20.7";
-  const percent = isRandom ? randomValue(10, 30, 2) : "25.4%";
+  const total = isRandom ? randomValue(-4, 4, 2) : "4";
+  const percent = isRandom ? randomValue(2, 2, 1) : "2%";
   const status = "Çox pis";
 
   return (
