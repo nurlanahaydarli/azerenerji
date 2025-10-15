@@ -26,7 +26,7 @@ export default function CrashStatistics({
     ];
 
     return (
-        <div className={`${styles.statistic_card}`}>
+        <div className={`${styles.statistic_card}`} style={{height:"243px"}}>
             <div className={`${styles.statistic_item} ${styles.statistic_item_grid}`}>
                 <Typography as="h4" variant="body1" color="primary" weight="medium">
                     {title}
@@ -51,7 +51,7 @@ export default function CrashStatistics({
                 </Typography>
             </div>
 
-            <div style={{ height: "90px" }}>
+            <div style={{ height: "120px" }}>
                 <ResponsiveContainer>
                     <PieChart>
                         <Pie
@@ -62,6 +62,7 @@ export default function CrashStatistics({
                             outerRadius={60}
                             dataKey="value"
                             stroke="none"
+                            
                             cornerRadius={10}   
                             
                         >
