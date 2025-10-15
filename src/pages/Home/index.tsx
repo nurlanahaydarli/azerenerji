@@ -65,7 +65,7 @@ export default function Home() {
                                 icon={<StatisticUp />}
                                 title="İqtisadi tövhə"
                                 color="green"
-                                value={isRandom ? randomValue(4000, 7000, 1) : "5.951,0"}
+                                value={isRandom ? randomValue(1241254, 2241254, 1) : "1241254"}
                                 unit="₼"
                                 statusText="Yaxşı"
                                 percent={isRandom ? `${randomValue(50, 70, 2)}%` : "12%"}
@@ -76,9 +76,9 @@ export default function Home() {
                                 icon={<StatisticUp />}
                                 title="Ödənilən vergi"
                                 color="green"
-                                value={isRandom ? randomValue(4000, 7000, 1) : "5.951,0"}
+                                value={isRandom ? randomValue(22342572, 32342572, 1) : "22342572"}
                                 unit="₼"
-                                statusText="Yaxşı"
+                                statusText="Əla"
                                 percent={isRandom ? `${randomValue(50, 70, 2)}%` : "12%"}
                             />
                         </Col>
