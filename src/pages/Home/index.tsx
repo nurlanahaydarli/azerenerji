@@ -45,33 +45,23 @@ const barData = [
 
 export default function Home() {
     const navigate = useNavigate()
-    // const randomValue = (min: number, max: number, fixed = 1) =>
-    //     (Math.random() * (max - min) + min).toFixed(fixed);
-    const randomValue = (() => {
-        const values = new Map<string, number>(); // fərqli min dəyərləri üçün ayrıca state saxlayır
+    const randomValue = (min: number, max: number, fixed = 1) =>
+        (Math.random() * (max - min) + min).toFixed(fixed);
 
-        return (min: number, step: number, fixed = 1) => {
-            const key = `${min}-${step}-${fixed}`;
-            const prev = values.get(key) ?? min;
-            const next = prev + step;
-            values.set(key, next);
-            return next.toFixed(fixed);
-        };
-    })();
     const [searchParams] = useSearchParams();
     const startDate = searchParams.get("startDate");
     const isRandom = Boolean(startDate);
-
+   
     return (
         <>
             <div className={styles.home_content}>
                 <Flex gap={24} vertical>
                     <div style={{ cursor: "pointer" }} onClick={() => navigate(ROUTER.HOMETABLE)}>
-                        <StatisticsChart />
+                        <StatisticsChart  />
                     </div>
                     <Row gutter={24}>
                         <Col xl={12} md={24} xs={24}>
-                            <MiniStatistics2
+                             <MiniStatistics2
                                 icon={<StatisticUp />}
                                 title="İqtisadi tövhə"
                                 color="green"
@@ -82,7 +72,7 @@ export default function Home() {
                             />
                         </Col>
                         <Col xl={12} md={24} xs={24}>
-                            <MiniStatistics2
+                             <MiniStatistics2
                                 icon={<StatisticUp />}
                                 title="Ödənilən vergi"
                                 color="green"
